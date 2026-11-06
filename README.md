@@ -4,11 +4,11 @@ Welcome to my Python portfolio. This repository contains five machine learning p
 
 ## Projects
 
-### churn-prediction
+### churn prediction
 
 Predicting which of 7,043 telecom customers will cancel their service. I explored the data, compared seven algorithms with cross-validation, evaluated five models (including XGBoost and CatBoost), identified contract type and tenure as the strongest predictors, and explained predictions with SHAP.
 
-### credit-card-fraud-detection
+### credit card fraud detection
 
 Detecting fraudulent transactions in a dataset of 568,630 credit card transactions. I removed highly correlated features, compared eight algorithms, evaluated KNN, gradient boosting, and random forest with AUC, precision, and recall, and tuned the final model with a grid search.
 
