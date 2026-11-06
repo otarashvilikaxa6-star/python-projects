@@ -4,23 +4,23 @@ Welcome to my Python portfolio. This repository contains five machine learning p
 
 ## Projects
 
-### [Customer Churn Prediction](churn-prediction)
+### churn-prediction
 
 Predicting which of 7,043 telecom customers will cancel their service. I explored the data, compared seven algorithms with cross-validation, evaluated five models (including XGBoost and CatBoost), identified contract type and tenure as the strongest predictors, and explained predictions with SHAP.
 
-### [Credit Card Fraud Detection](credit-card-fraud-detection)
+### credit-card-fraud-detection
 
 Detecting fraudulent transactions in a dataset of 568,630 credit card transactions. I removed highly correlated features, compared eight algorithms, evaluated KNN, gradient boosting, and random forest with AUC, precision, and recall, and tuned the final model with a grid search.
 
-### [Heart Disease Prediction](heart-disease-prediction)
+### heart disease prediction
 
 Predicting heart disease from clinical data on 303 patients. I compared logistic regression, KNN, and random forest, and tuned the models with randomized search and cross-validation; logistic regression reached 91.8% test accuracy.
 
-### [Dog Breed Classification](dog-vision)
+### dog vision project
 
 An image classifier for 120 dog breeds, trained on 10,222 labeled photos. I used transfer learning with a pretrained MobileNetV2 model from TensorFlow Hub, built with TensorFlow and Keras.
 
-### [Bulldozer Sale Price Prediction](bulldozer-price-prediction)
+### bulldozer price prediction
 
 A regression model that predicts the auction price of used bulldozers from 412,698 historical sales. I engineered date features, handled missing values, validated on a time-based split, and compared Random Forest models; the final model reached an R² of 0.883.
 
